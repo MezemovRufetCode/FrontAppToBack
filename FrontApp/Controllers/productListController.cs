@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FrontApp.Controllers
 {
-    public class HomeController:Controller
+    public class productListController:Controller
     {
-   public ActionResult Index()
+        public ActionResult ProductList()
         {
             return View();
         }

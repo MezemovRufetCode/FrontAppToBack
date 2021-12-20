@@ -104,7 +104,7 @@ $(document).ready(function () {
     filterArea.onmouseleave = function () {
       filterArea.classList.add("d-none");
     };
-  };
+    };
   // myfilter.onmouseleave = function () {
   //   let filterArea = document.querySelector(".products .filterArea");
   //   filterArea.classList.add("d-none");

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FrontApp.Controllers
 {
-    public class HomeController:Controller
+    public class AccordionController:Controller
     {
-   public ActionResult Index()
+        public ActionResult AccordionPage()
         {
             return View();
         }

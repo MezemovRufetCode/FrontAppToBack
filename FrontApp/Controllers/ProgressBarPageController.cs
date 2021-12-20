@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FrontApp.Controllers
 {
-    public class HomeController:Controller
+    public class ProgressBarPageController:Controller
     {
-   public ActionResult Index()
+        public ActionResult ProgressBar()
         {
             return View();
         }
